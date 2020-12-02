@@ -1,0 +1,13 @@
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.exe
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.deps.json
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.runtimeconfig.json
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.runtimeconfig.dev.json
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.dll
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\bin\Debug\netcoreapp3.1\Line_Comp.pdb
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.csprojAssemblyReference.cache
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.AssemblyInfoInputs.cache
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.AssemblyInfo.cs
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.csproj.CoreCompileInputs.cache
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.dll
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.pdb
+C:\Users\prattii\Desktop\Line_Comp\Line_Comp\Line_Comp\obj\Debug\netcoreapp3.1\Line_Comp.genruntimeconfig.cache
