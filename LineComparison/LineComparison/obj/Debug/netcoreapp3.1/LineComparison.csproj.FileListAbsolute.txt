@@ -11,3 +11,6 @@ C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\obj\Debug\netcor
 C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\obj\Debug\netcoreapp3.1\LineComparison.dll
 C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\obj\Debug\netcoreapp3.1\LineComparison.pdb
 C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\obj\Debug\netcoreapp3.1\LineComparison.genruntimeconfig.cache
+C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\prattii\Desktop\LineComp\LineComparison\LineComparison\obj\Debug\netcoreapp3.1\LineComparison.csproj.CopyComplete

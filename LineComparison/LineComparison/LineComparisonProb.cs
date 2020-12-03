@@ -21,19 +21,20 @@ namespace LineComparison
             length2 = (Math.Sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3))));
             double line1 = length1; 
             double line2 = length2;
+            Boolean equal = line1.Equals(line2);
             int compare = line1.CompareTo(line2);
 
-            if (compare == 0)
+            if (line1.CompareTo(line2) == 0)
             {
-                Console.WriteLine("Both Lines are Same.");
+                Console.WriteLine("By Comparing the Both Lines are Same.");
             }
-            else if (line1 > line2)
-            {     
-                Console.WriteLine("Line 1 is greater");
-            }
-            else
+            else if (line1.Equals(line2) == true)
             {
-                Console.WriteLine("Line 2 is greater");
+                Console.WriteLine("Line are equal");
+            }
+            else 
+            {
+                Console.WriteLine("Line are not equal"); 
             }
         }
 			
