@@ -4,46 +4,38 @@ namespace LineComparison
 {
     class LineComparisonProb
     {
-			Double[] lengths = new Double[2];
-			double firstLine, secondLine;
-			int firstX, firstY, secondX, secondY, thirdX, thirdY, fourthX, fourthY;
+		public static void Main(String[] args)
+		{
+		    double length1;
+            double length2;
+            Random Number = new Random();
+            double x1 = Number.Next(0, 6);
+            double x2 = Number.Next(0, 6);
+            double x3 = Number.Next(0, 6);
+            double x4 = Number.Next(0, 6);
+            double y1 = Number.Next(0, 6);
+            double y2 = Number.Next(0, 6);
+            double y3 = Number.Next(0, 6);
+            double y4 = Number.Next(0, 6);
+            length1 = (Math.Sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1))));
+            length2 = (Math.Sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3))));
+            double line1 = length1; 
+            double line2 = length2;
+            int compare = line1.CompareTo(line2);
 
-			void calculateLengthOfLine()
-			{
-				Random random = new Random();
-				firstX = random.Next(10, 1);
-				firstY = random.Next(10, 1);
-				secondX = random.Next(10, 1);
-				secondY = random.Next(10, 1);
-				thirdX = random.Next(10, 1);
-				thirdY = random.Next(10, 1);
-				fourthX = random.Next(10, 1);
-				fourthY = random.Next(10, 1);
-
-				firstLine = Math.Sqrt(((secondX - firstX) * (secondX - firstX)) + ((secondY - firstY) * (secondY - firstY)));
-				secondLine = Math.Sqrt(((fourthX - thirdX) * (fourthX - thirdX)) + ((fourthY - thirdY) * (fourthY - thirdY)));
-
-				lengths[0] = Convert.ToDouble(firstLine);
-				lengths[1] = Convert.ToDouble(secondLine);
-
-				Double line1 = lengths[0];
-				Double line2 = lengths[1];
-				Console.WriteLine("Line1 length : {0}", lengths[0], " Line1 length : {0}", lengths[1]);
-
-				if (line1.Equals(line2) == true)
-				{
-					Console.WriteLine("_____________________________________________________________________________");
-					Console.WriteLine("Lines are equal to Length");
-				}
-				else
-					Console.WriteLine("_____________________________________________________________________________");
-				Console.WriteLine("Lines are not equal to Length");
-			}
-
-			public static void Main(String[] args)
-			{
-				LineComparisonProb lineComparison = new LineComparisonProb();
-				lineComparison.calculateLengthOfLine();
-			}
-		}
+            if (compare == 0)
+            {
+                Console.WriteLine("Both Lines are Same.");
+            }
+            else if (line1 > line2)
+            {     
+                Console.WriteLine("Line 1 is greater");
+            }
+            else
+            {
+                Console.WriteLine("Line 2 is greater");
+            }
+        }
+			
 	}
+}
